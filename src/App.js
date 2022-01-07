@@ -15,6 +15,7 @@ const cardImages = [
 ];
 
 function App() {
+  console.log('credits to Legendary theNetNinja');
   const [cards, setCards] = useState([]);
   const [turns, setTurns] = useState(0);
   const [choiceOne, setChoiceOne] = useState(null);
